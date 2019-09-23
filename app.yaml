@@ -1,0 +1,23 @@
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+env_variables:
+  API_KEY: <AIzaSyBL9S9jWZJVZSjsYqVlo8a5dDGY9LcqrzE>
+
+handlers:
+
+  - url: /
+    static_files: dist/bonsai/index.html
+    upload: dist/bonsai/index.html
+  - url: /
+    static_dir: dist/bonsai
+
+skip_files:
+  - e2e/
+  - node_modules/
+  - src/
+  - ^(.*/)?\..*$
+  - ^(.*/)?.*\.md$
+  - ^(.*/)?.*\.yaml$
+  - ^LICENSE

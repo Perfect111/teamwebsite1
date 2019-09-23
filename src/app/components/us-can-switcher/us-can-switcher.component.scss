@@ -1,0 +1,35 @@
+
+:host{
+
+    div{
+         display: flex;
+        align-items: center; 
+        .country{
+            color: #272B3D;
+            font-family: Inter;	
+            font-size: 18px;
+            font-weight: 600;	
+            line-height: 21px;
+            outline: none;
+            opacity: .5;
+
+            img{
+                height: 24px;	
+                width: 46px;
+                margin: 0 10px;
+            }
+            &.active{
+                opacity: 1;
+            }
+        }
+       
+        .line{
+            height: 44px;
+            width: 2px;
+            background-color: #D5D9E1;
+            display: inline-flex;
+            margin: 0 20px;
+        }
+    }
+   
+}

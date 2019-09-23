@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="19px" viewBox="0 0 25 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icon_Arrow-Right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="25 8.31632671 4.51457736 8.31632671 11.1676387 1.66326534 9.50437338 0 0 9.50437338 9.50437338 19.0087468 11.1676387 17.3454814 4.51457736 10.6924201 25 10.6924201"></polygon>
+    </defs>
+    <g id="Icon_Arrow-Right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Component-/-Bar-/-Nav-Bar-/-Left-/-Back-/-White">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Icon-Arrow" fill="#FFFFFF" fill-rule="nonzero" transform="translate(12.500000, 9.504373) scale(-1, 1) translate(-12.500000, -9.504373) " xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
